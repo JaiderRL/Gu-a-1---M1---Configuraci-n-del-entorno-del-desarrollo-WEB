@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi primer proyecto web: la inteligencia artificial en la vida diaria.">
+    <title>TecnoVida | La inteligencia artificial en la vida diaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>TecnoVida</h1>
+            <p class="subtitulo">La inteligencia artificial en la vida diaria</p>
+            <nav aria-label="Navegación principal">
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#aplicaciones">Aplicaciones</a></li>
+                    <li><a href="#recomendaciones">Recomendaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section id="inicio" class="seccion presentacion">
+            <div class="texto">
+                <h2>¿Qué es la inteligencia artificial?</h2>
+                <p>
+                    La inteligencia artificial (IA) es la rama de la informática que construye programas
+                    capaces de reconocer imágenes y entender lo que escribes o dices. La usas cuando
+                    desbloqueas el celular con la cara o cuando tu plataforma de estudio te sugiere el
+                    siguiente ejercicio.
+                </p>
+                <p>
+                    Si quieres aprender cómo se arma una página web, revisa la
+                    <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">documentación
+                    de MDN Web Docs</a>.
+                </p>
+            </div>
+            <figure class="imagen">
+                <img src="img/ia-ilustracion.svg" alt="Ilustración de un cerebro digital conectado a circuitos" width="320" height="320">
+                <figcaption>Los ingenieros entrenan una IA con miles de ejemplos.</figcaption>
+            </figure>
+        </section>
+
+        <section id="aplicaciones" class="seccion">
+            <h2>La IA en tu día a día</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Educación</h3>
+                    <p>Tu plataforma de estudio ajusta los ejercicios a tu ritmo. Si te trabas a las 11 de la noche, un asistente te responde.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Salud</h3>
+                    <p>Los médicos usan programas que marcan zonas sospechosas en una radiografía antes de revisarla.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Empresas</h3>
+                    <p>Una tienda en línea te atiende con un chatbot y revisa sus ventas para decidir qué productos pedir.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Hogar</h3>
+                    <p>Spotify y Netflix te recomiendan canciones y series según lo que ya escuchaste y viste.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="recomendaciones" class="seccion">
+            <h2>Usa la IA con cuidado</h2>
+            <ul class="lista">
+                <li>Compara lo que te responde una IA con una fuente confiable antes de copiarlo en un trabajo.</li>
+                <li>No escribas tus contraseñas ni tus datos personales en herramientas que no conoces.</li>
+                <li>Pídele a la IA que te explique el tema y luego resuelve tú el ejercicio.</li>
+            </ul>
+            <button type="button" id="btnDato" class="boton">Mostrar un dato curioso</button>
+            <p id="datoCurioso" class="dato" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>&copy; <span id="anio">2026</span> TecnoVida &middot; Mi primer proyecto web con HTML5</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
